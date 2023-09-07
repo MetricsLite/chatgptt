@@ -1,0 +1,26 @@
+{
+  "name": "gpt-bot",
+  "version": "1.0.0",
+  "description": "An advanced discord chatbot built with NodeJs, Typescript and OpenAI API.",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon src/index.ts"
+  },
+  "author": "Shin",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dayjs": "^1.11.8",
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.3.0",
+    "openai": "^3.2.1",
+    "replicate": "^0.12.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
